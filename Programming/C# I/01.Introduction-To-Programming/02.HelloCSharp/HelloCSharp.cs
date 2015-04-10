@@ -1,12 +1,14 @@
-﻿//Create, compile and run a “Hello C#” console application.
-
-using System;
-
-class HelloCSharp
+﻿namespace HelloCSharp
 {
-    static void Main()
+    using System;
+
+    public class HelloCSharp
     {
-        Console.WriteLine("Hello C#");
+        public const string Greeting = "Hello C#";
+
+        public static void Main()
+        {
+            Console.WriteLine(Greeting);
+        }
     }
 }
-
