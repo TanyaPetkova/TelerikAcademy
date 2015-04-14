@@ -1,0 +1,48 @@
+﻿body {
+    background-color: rgb(169, 169, 169);
+}
+
+    header, body > footer {
+        text-align: center;
+    }
+
+h1 {
+    color: rgb(250, 250, 200);
+}
+
+li a {
+    color: rgb(255, 255, 255);
+}
+
+.current {
+    background-color: rgb(211, 211, 211);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li:last-child {
+    text-decoration: underline;
+}
+
+p a {
+    color: rgb(0,0,0);
+}
+
+article header h1 {
+    text-align: left;
+    font-size: 20px;
+}
+
+article footer {
+    font-size: 10px;
+}
+
+nav {
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}

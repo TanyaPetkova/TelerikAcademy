@@ -1,0 +1,11 @@
+﻿.center {
+    text-align: center;
+    padding-right: 40px;
+}
+
+#content-table, #content-table th, #content-table tr, #content-table tr td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}

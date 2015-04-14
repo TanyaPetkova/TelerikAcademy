@@ -1,0 +1,32 @@
+﻿li ul li {
+    display: none;
+}
+
+ul li:hover li {
+    display: block;
+}
+
+li {
+    list-style: none;
+    width:100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+body > ul > li > a {
+    color: black;
+}
+
+li ul > li > a {
+    color: grey;
+}
+
+li ul {
+    margin-left: -31px;
+}

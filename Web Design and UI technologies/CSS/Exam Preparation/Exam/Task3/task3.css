@@ -1,0 +1,113 @@
+﻿body,
+div,
+h1,
+h2,
+ul,
+li,
+button {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 18px;
+    font-family: Arial;
+    color: #2AA0BD;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    width: 610px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+h2 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+div.chat-container {
+    float: left;
+    border: 1px solid #CCC;
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.4, #4AE871), color-stop(0.7, #F0FFBC) );
+    background-image: -o-linear-gradient(bottom, #4AE871 40%, #F0FFBC 70%);
+    background-image: -moz-linear-gradient(bottom, #4AE871 40%, #F0FFBC 70%);
+    background-image: -webkit-linear-gradient(bottom, #4AE871 40%, #F0FFBC 70%);
+    background-image: -ms-linear-gradient(bottom, #4AE871 40%, #F0FFBC 70%);
+    background-image: linear-gradient(to bottom, #4AE871 40%, #F0FFBC 70%);
+    margin-left: 10px;
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+strong {
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+}
+
+ul li:first-of-type {
+    margin-top: 50px;
+}
+
+li {
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+    li.other {
+        padding-left: 140px;
+    }
+
+input,
+button {
+    top: 545px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 30px;
+    background-image: inherit;
+    background: inherit;
+    font-size: 1.1em;
+    position: absolute;
+}
+
+input {
+    width: 200px;
+    margin-left: 5px;
+    color: #2AA0BD;
+}
+
+button {
+    width: 75px;
+    margin-right: 10px;
+    color: #2AA0BD;
+    height: 35px;
+    margin-left: 210px;
+}
+
+    button:hover {
+        background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #4AE871), color-stop(1, #F0FFBC) );
+        background-image: -o-linear-gradient(bottom, #4AE871 0%, #F0FFBC 100%);
+        background-image: -moz-linear-gradient(bottom, #4AE871 0%, #F0FFBC 100%);
+        background-image: -webkit-linear-gradient(bottom, #4AE871 0%, #F0FFBC 100%);
+        background-image: -ms-linear-gradient(bottom, #4AE871 0%, #F0FFBC 100%);
+        background-image: linear-gradient(to bottom, #4AE871 0%, #F0FFBC 100%);
+    }
+
+span {
+    word-wrap: break-word;
+}

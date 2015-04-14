@@ -1,0 +1,87 @@
+﻿body,
+div,
+header,
+h1,
+nav,
+ul,
+li,
+div,
+article,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #C6C6C6;
+    font-size: 14px;
+}
+
+html, body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    color: #C6C6C6;
+}
+
+.clear {
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+header {
+    background-image: url('images/header-bg.png');
+    padding: 15px;
+    color: #575E5B;
+}
+
+    header > h1 {
+        float: left;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+div#searchBar {
+    background-color: black;
+    padding: 10px;
+    font-size: 14px;
+}
+
+div#search {
+    float: right;
+}
+
+div#archives {
+    float: left;
+}
+
+div#content {
+    color: #575E5B;
+}
+
+    div#content > h1 {
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    div#content article {
+        font-size: 14px;
+    }
+
+nav {
+    font-size: 14px;
+}

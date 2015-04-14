@@ -1,0 +1,102 @@
+﻿body,
+div,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#wrapper {
+    font-family: Verdana;
+    font-size: 20px;
+    padding: 0 50px;
+}
+
+.invisible {
+    display: none;
+}
+
+legend {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+fieldset {
+    border: 5px solid black;
+    text-align: right;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#form-login {
+    width: 440px;
+    height: 200px;
+}
+
+    #form-login > fieldset {
+        padding-right: 110px;
+    }
+
+#form-register {
+    width: 460px;
+}
+
+    #form-register > fieldset {
+        padding-right: 90px;
+    }
+
+a:hover {
+    color: #666666;
+}
+
+.current,
+label {
+    font-weight: bold;
+}
+
+label {
+    font-size: 0.8em;
+}
+
+form {
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.1, #595959), color-stop(0.85, #FFFFFF) );
+    background-image: -o-linear-gradient(top, #595959 10%, #FFFFFF 85%);
+    background-image: -moz-linear-gradient(top, #595959 10%, #FFFFFF 85%);
+    background-image: -webkit-linear-gradient(top, #595959 10%, #FFFFFF 85%);
+    background-image: -ms-linear-gradient(top, #595959 10%, #FFFFFF 85%);
+    background-image: linear-gradient(to top, #595959 10%, #FFFFFF 85%);
+}
+
+input {
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #020202), color-stop(1, #CACACA) );
+    background-image: -o-linear-gradient(bottom, #020202 0%, #CACACA 100%);
+    background-image: -moz-linear-gradient(bottom, #020202 0%, #CACACA 100%);
+    background-image: -webkit-linear-gradient(bottom, #020202 0%, #CACACA 100%);
+    background-image: -ms-linear-gradient(bottom, #020202 0%, #CACACA 100%);
+    background-image: linear-gradient(to bottom, #020202 0%, #CACACA 100%);
+    border: 0;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin: 5px;
+}
+
+button {
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #000000), color-stop(1, #FCFCFC) );
+    background-image: -o-linear-gradient(bottom, #000000 0%, #FCFCFC 100%);
+    background-image: -moz-linear-gradient(bottom, #000000 0%, #FCFCFC 100%);
+    background-image: -webkit-linear-gradient(bottom, #000000 0%, #FCFCFC 100%);
+    background-image: -ms-linear-gradient(bottom, #000000 0%, #FCFCFC 100%);
+    background-image: linear-gradient(to bottom, #000000 0%, #FCFCFC 100%);
+    border-color: black;
+    font-size: 0.9em;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-weight: 600;
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Ticket", "01.Ticket\01.Ticket.csproj", "{7C8AED82-F74B-47C3-8DDF-76A82CAB7F83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ContactList", "02.ContactList\02.ContactList.csproj", "{832D7372-8861-48DF-871E-F2EC8BAD59FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Articles", "03.Articles\03.Articles.csproj", "{F7620154-87BD-4D81-9954-1A63A39DDDC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C8AED82-F74B-47C3-8DDF-76A82CAB7F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8AED82-F74B-47C3-8DDF-76A82CAB7F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8AED82-F74B-47C3-8DDF-76A82CAB7F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8AED82-F74B-47C3-8DDF-76A82CAB7F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832D7372-8861-48DF-871E-F2EC8BAD59FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832D7372-8861-48DF-871E-F2EC8BAD59FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832D7372-8861-48DF-871E-F2EC8BAD59FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832D7372-8861-48DF-871E-F2EC8BAD59FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7620154-87BD-4D81-9954-1A63A39DDDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7620154-87BD-4D81-9954-1A63A39DDDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7620154-87BD-4D81-9954-1A63A39DDDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7620154-87BD-4D81-9954-1A63A39DDDC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

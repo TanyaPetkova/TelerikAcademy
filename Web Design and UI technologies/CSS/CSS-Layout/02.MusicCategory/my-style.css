@@ -1,0 +1,15 @@
+﻿article{
+    border: 1px solid black;
+    margin:20px;
+    width:500px;
+    height:120px;
+}
+
+img{
+    padding:15px;
+    float: left;
+}
+
+span{
+    vertical-align:20px;
+}

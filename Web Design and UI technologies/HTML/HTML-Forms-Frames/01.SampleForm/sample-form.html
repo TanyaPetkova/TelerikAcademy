@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Last Name</title>
+    <link rel="stylesheet" type="text/css" href="my-style.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tr class="height">
+                <td class="left-column">Last Name</td>
+                <td colspan="3"><input type="text" name="LastName" value="Nakov" /></td>
+            </tr>
+            <tr class="height">
+                <td class="left-column">First Name</td>
+                <td colspan="3"><input type="text" name="FirstName" value="Svetlin" /></td>
+            </tr>
+            <tr>
+                <td class="left-column">Address</td>
+                <td colspan="3"><textarea rows="4" cols="30">17 Hristo botev Str. floor 3. apt.12</textarea></td>
+            </tr>
+            <tr class="height">
+                <td class="left-column">City</td>
+                <td><input type="text" id="city" name="City" value="Kaspichan" /></td>
+                <td class="left-column" id="state">State</td>
+                <td id="state-cell"><input type="text" id="state-form" name="State" /></td>
+            </tr>
+            <tr class="height">
+                <td class="left-column">Zip/Postal Code</td>
+                <td colspan="3"><input type="text" id="zip" name="Zip/Postal Code" value="9325" /></td>
+            </tr>
+            <tr class="height">
+                <td class="left-column">Country</td>
+                <td colspan="3">
+                    <select id="country" name="country">
+                        <option value="Value 1" selected="selected">Bulgaria</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="height">
+                <td class="left-column">Phone(country code, area code, number)</td>
+                <td colspan="3">
+                    (+<input type="text" id="country-code" name="country code" value="359" />)
+                    <input type="text" id="area-code" name="area code" value="88" />-
+                    <input type="text" id="number" name="number" value="8334343" />
+                </td>
+            </tr>
+            <tr class="height">
+                <td class="left-column">E-mail</td>
+                <td colspan="3">
+                    <input type="email" id="email" name="e-mail" value="nakov@kaspichan.org" />
+                </td>
+            </tr>
+            <tr class="height">
+                <td class="left-column">Birth date</td>
+                <td colspan="3">
+                    Month<input type="text" id="month" name="month" value="06" />
+                    Day<input type="text" id="day" name="day" value="14" />
+                    Year(4 digit)<input type="text" id="year" name="year" value="1980" />
+                </td>
+            </tr>
+            <tr class="height">
+                <td class="left-column">Gender</td>
+                <td colspan="3">
+                    <select id="gender" name="gender">
+                        <option value="Value 1" selected="selected">Male</option>
+                        <option value="Value 2">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="height">
+                <td class="left-column">Starting date</td>
+                <td colspan="3">
+                    <input type="radio" name="starting date" value="Spring 2006" checked />Spring 2006
+                    <input type="radio" name="starting date" value="Summer 2006" />Summer 2006
+                </td>
+            </tr>
+            <tr>
+                <td class="left-column">Comments/Questions</td>
+                <td colspan="3"><textarea rows="6" cols="30">Please send me mor information about the lodging.</textarea></td>
+            </tr>
+            <tr id="buttons">
+                <td colspan="4">
+                    <input type="submit" value="Submit" />
+                    <input type="submit" value="Clear this form" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

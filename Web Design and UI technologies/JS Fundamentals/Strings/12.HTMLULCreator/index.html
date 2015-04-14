@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Strings - HTML UL creator</title>
+</head>
+<body>
+    <div data-type="template" id="list-item">
+        <strong>-{name}-</strong> <span>-{age}-</span>
+    </div>
+    <script>
+        var people = [{ name: 'Peter', age: 14 }, { name: 'Gosho', age: 24 }, { name: 'Ivan', age: 19 }];
+        var tmpl = document.getElementById('list-item').innerHTML;
+        var peopleList = generateList(people, tmpl);
+        document.getElementById('list-item').innerHTML = peopleList;
+
+        function generateList(arrayOfObjects, template) {
+            var result = '';
+            for (var i = 0; i < arrayOfObjects.length; i += 1) {
+                var objectKeys = Object.keys(arrayOfObjects[i]),
+                    resultTemplate = template;
+                for (var j = 0; j < objectKeys.length; j += 1) {
+                    var placeHolder = '-{' + objectKeys[j] + '}-';
+                    while (resultTemplate.indexOf(placeHolder) !== -1) {
+                        resultTemplate = resultTemplate.replace(placeHolder, arrayOfObjects[i][objectKeys[j]]);
+                    }
+                }
+
+                result = result + '<li>' + resultTemplate + '</li>';
+            }
+
+            result = '<ul>' + result + '</ul>';
+            return result;
+}</script>
+</body>
+</html>

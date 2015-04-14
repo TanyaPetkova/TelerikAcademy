@@ -1,0 +1,62 @@
+﻿body {
+    background-color: rgb(89, 89, 89);
+}
+
+#not-answered {
+    color: rgb(255, 128, 72);
+}
+
+#red {
+    color: red;
+}
+
+.light-gray {
+    color: rgb(166, 174, 177);
+}
+
+.yellow {
+    color: rgb(236, 232, 195);
+}
+
+.italic {
+    font-style: italic;
+    color: rgb(239, 248, 245);
+}
+
+td[rowspan] {
+    vertical-align: top;
+}
+
+#first-row {
+    font-size: 20px;
+    text-align: left;
+}
+
+#point {
+    color: green;
+    font-size: 5em;
+}
+
+#pointgreen {
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 1em;
+    background-color: rgb(113, 180, 122);
+    color: rgb(113, 180, 122);
+}
+
+thead tr th {
+    font-weight: normal;
+}
+
+td {
+    padding: 5px;
+}
+
+    td.innerTable {
+        padding: 1px;
+    }
+
+#name {
+    vertical-align:20px;
+}

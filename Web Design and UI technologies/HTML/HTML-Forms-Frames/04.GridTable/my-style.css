@@ -1,0 +1,93 @@
+﻿tr, td, th {
+    border-collapse: collapse;
+    border: 1px solid rgb(164,171,173);
+    padding: 4px;
+    text-align: left;
+}
+
+td {
+    padding-left: 10px;
+}
+
+table {
+    border: 1px solid rgb(164,171,173);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#first-row {
+    background-color: rgb(231,233,236);
+    -webkit-border-top-right-radius: 10px;
+    -moz-border--top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#second-row {
+    background: -webkit-linear-gradient(rgb(231,233,236), rgb(222,224,227)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(231,233,236), rgb(222,224,227)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(231,233,236), rgb(222,224,227)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(231,233,236), rgb(222,224,227)); /* Standard syntax */
+}
+
+#third-row {
+    background-color: rgb(231,233,236);
+}
+
+#last-row td {
+    background: -webkit-linear-gradient(rgb(231,233,236), rgb(222,224,227)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(231,233,236), rgb(222,224,227)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(231,233,236), rgb(222,224,227)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(231,233,236), rgb(222,224,227)); /* Standard syntax */
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#bottom-right-corner {
+    margin-left: 390px;
+}
+
+#productid {
+    width: 30px;
+    height: auto;
+}
+
+input[type="image"] {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    border-radius: 3px;
+}
+
+#unit-price, #quantity, #instock {
+    width: 100px;
+}
+
+#second-col {
+    width: 320px;
+}
+
+#third-col {
+    width: 190px;
+}
+
+#fourth-col {
+    width: 170px;
+}
+
+#fifth-col {
+    width: 210px;
+}
+
+#one {
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+#page-size {
+    width: 40px;
+    border-radius: 3px;
+}

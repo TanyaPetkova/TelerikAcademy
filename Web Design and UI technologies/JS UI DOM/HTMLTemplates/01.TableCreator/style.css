@@ -1,0 +1,23 @@
+﻿        table {
+            border-collapse: collapse;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        table, tr, th, td {
+            border: 1px solid black;
+            padding: 3px 3px 2px 3px;
+        }
+
+            tr:nth-child(2n) {
+                background-color: #D9D9D9;
+            }
+
+        th {
+            background-color: #A6A6A6;
+            color: #FFF;
+        }
+
+        td:nth-child(2) {
+            text-align: left;
+        }

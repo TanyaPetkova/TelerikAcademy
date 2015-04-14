@@ -1,0 +1,96 @@
+﻿body,
+div,
+ul,
+li,
+a,
+img,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 960px;
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+    ul.notification-list {
+        margin: 30px;
+        width: 470px;
+        height: 25px;
+        border: 1px solid black;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding-top: 3px;
+        background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #ABABAB), color-stop(1, #CCCCCC) );
+        background-image: -o-linear-gradient(bottom, #ABABAB 0%, #CCCCCC 100%);
+        background-image: -moz-linear-gradient(bottom, #ABABAB 0%, #CCCCCC 100%);
+        background-image: -webkit-linear-gradient(bottom, #ABABAB 0%, #CCCCCC 100%);
+        background-image: -ms-linear-gradient(bottom, #ABABAB 0%, #CCCCCC 100%);
+        background-image: linear-gradient(to bottom, #ABABAB 0%, #CCCCCC 100%);
+    }
+
+.notification-list > li {
+    display: inline;
+    border-right: 1px solid black;
+    padding: 5px;
+    height: 30px;
+}
+
+.notification-list li:last-of-type {
+    border-right: 0;
+}
+
+.notification-list li:first-of-type {
+    border-top-left-radius: 10px;
+}
+
+.notification-list li:hover {
+    border-bottom: 0;
+}
+
+    .notification-list li:hover .content {
+        display: block;
+        position: absolute;
+        margin-top: 5px;
+    }
+
+
+.notification-list li:last-of-type {
+    border-top-right-radius: 10px;
+}
+
+div.content {
+    display: none;
+    font-size: 0.9em;
+    border: 1px solid black;
+    border-top: 0;
+    width: 470px;
+    margin-left: -1px;
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #DDDDDD), color-stop(1, #CCCCCC) );
+    background-image: -o-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+    background-image: -moz-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+    background-image: -webkit-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+    background-image: -ms-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+    background-image: linear-gradient(to top, #DDDDDD 0%, #CCCCCC 100%);
+}
+
+    div.content ul li {
+        margin: 10px;
+    }
+
+img {
+    width: 13px;
+    height: 13px;
+}

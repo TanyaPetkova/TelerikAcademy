@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.TableCreator", "01.TableCreator\01.TableCreator.csproj", "{421691B4-CFE7-42EB-AC4E-786CDC88EF82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.DynamicSelectCreator", "02.DynamicSelectCreator\02.DynamicSelectCreator.csproj", "{85360CB7-3939-483C-9E12-28A8EBF35A93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ListViewPlugin", "03.ListViewPlugin\03.ListViewPlugin.csproj", "{48D6F771-818D-4B02-ABD9-4341DA72060A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{421691B4-CFE7-42EB-AC4E-786CDC88EF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421691B4-CFE7-42EB-AC4E-786CDC88EF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421691B4-CFE7-42EB-AC4E-786CDC88EF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421691B4-CFE7-42EB-AC4E-786CDC88EF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85360CB7-3939-483C-9E12-28A8EBF35A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85360CB7-3939-483C-9E12-28A8EBF35A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85360CB7-3939-483C-9E12-28A8EBF35A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85360CB7-3939-483C-9E12-28A8EBF35A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D6F771-818D-4B02-ABD9-4341DA72060A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D6F771-818D-4B02-ABD9-4341DA72060A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D6F771-818D-4B02-ABD9-4341DA72060A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D6F771-818D-4B02-ABD9-4341DA72060A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

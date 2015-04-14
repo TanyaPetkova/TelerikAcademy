@@ -1,0 +1,19 @@
+﻿#inner-table {
+    border: 1px solid black;
+}
+
+#outer-table td {
+    padding: 13px;
+}
+
+#nav {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Preceding Text</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+    Preceding Text
+    <ol type="I">
+        <li>
+            List Item 1
+            <ol type="a">
+                <li>Nested Item 1.1</li>
+                <li>Nested Item 1.2</li>
+            </ol>
+        </li>
+        <li>
+            List Item 2
+            <ol>
+                <li>Nested Item 2.1</li>
+                <li>
+                    Nested Item 2.2
+                    <ul id="circle">
+                        <li class="nested-list">Nested Item 2.2.1</li>
+                        <li class="nested-list">
+                            Nested Item 2.2.2
+                            <ul id="square">
+                                <li class="nested-list">Nested Item 2.2.2.1</li>
+                                <li class="nested-list">Nested Item 2.2.2.2</li>
+                            </ul>
+                        </li>
+                        <li class="nested-list">Nested Item 2.2.3</li>
+                    </ul>
+                </li>
+                <li>Nested Item 2.3</li>
+            </ol>
+        </li>
+        <li>
+            List Item 3
+            <ul id="disc">
+                <li>Nested Item 3.1</li>
+                <li>Nested Item 3.2</li>
+                <li>Nested Item 3.3</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div id="main-content">
+        <div id="registration">
+            <p>Registration form<p />
+            <label for="">Name: </label>
+            <input id="name-input" type="text" />
+            <label for="text-input">Password: </label>
+            <input id="pass-input" type="text" />
+            <button id="submit-post-button">Register</button>
+        </div>
+        <hr />
+        <div id="log-in">
+            <p>Login form<p />
+            <label for="">Name: </label>
+            <input id="name-input" type="text" />
+            <label for="text-input">Password: </label>
+            <input id="pass-input" type="text" />
+            <button id="log-in-button">Login</button>
+            <button id="log-out-button">Logout</button>
+        </div>
+
+        <hr />
+        <div id="create-post-container">
+            <p>Create post</p>
+            <label for="title-input">Title: </label>
+            <input id="title-input" type="text" />
+            <label for="content-input">Content: </label>
+            <textarea id="content-input"></textarea>
+            <button id="create-post-button">Create post</button>
+        </div>
+
+        <hr />
+        <label for="filter-input">Filter type: </label>
+        <input id="filter-input" type="text" />
+        <button id="get-posts-button">Get posts</button>
+        <div id="post-list-container"></div>
+    </div>
+
+    <script src="scripts/libs/require.js" data-main="scripts/app"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+﻿table, td {
+    border: 1px solid gray;
+}
+
+.single-cell-center {
+    width: 1.8em;
+    height: auto;
+    text-align: center;
+}
+
+.single-cell-right {
+    width: 1.8em;
+    height: auto;
+    text-align: right;
+}
+
+.colspan {
+    text-align: center;
+}
+
+#j {
+    text-align: right;
+    vertical-align: bottom;
+}

@@ -1,0 +1,25 @@
+﻿body {
+    font-family: Calibri;
+}
+
+li {
+    margin-left: -20px;
+    padding-left: 6px;
+}
+
+.nested-list {
+    margin-left: 0px;
+    padding-left: 9px;
+}
+
+#circle {
+    list-style-type: circle;
+}
+
+#disc {
+    list-style-type: disc;
+}
+
+#square {
+    list-style-type: square;
+}

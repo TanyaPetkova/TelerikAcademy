@@ -1,0 +1,16 @@
+﻿body {
+    width: 1250px;
+}
+
+div {
+    background-color: #000;
+    border: solid;
+    border-width: 2px;
+    border-color: #f00;
+    border-radius: 60px;
+    padding-right: 10%;
+}
+
+    div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div {
+        display: none;
+    }

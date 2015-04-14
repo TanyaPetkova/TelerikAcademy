@@ -1,0 +1,126 @@
+﻿body,
+div,
+ul,
+li,
+a,
+p,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #444444;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#wrapper {
+    width: 960px;
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 18px;
+    color: #444444;
+}
+
+li {
+    border: 1px solid black;
+    text-align: center;
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #AAAAAA), color-stop(0.8, #EEEEEE) );
+    background-image: -o-linear-gradient(top, #AAAAAA 0%, #EEEEEE 80%);
+    background-image: -moz-linear-gradient(top, #AAAAAA 0%, #EEEEEE 80%);
+    background-image: -webkit-linear-gradient(top, #AAAAAA 0%, #EEEEEE 80%);
+    background-image: -ms-linear-gradient(top, #AAAAAA 0%, #EEEEEE 80%);
+    background-image: linear-gradient(to top, #AAAAAA 0%, #EEEEEE 80%);
+    background-size: 400px 30px;
+    background-repeat: no-repeat;
+}
+
+    li:hover {
+        cursor: pointer;
+        background-image: none;
+        background-color: #AAAAAA;
+    }
+
+.accordion {
+    width: 400px;
+    height: 150px;
+    margin: 50px;
+    list-style-type: none;
+}
+
+.accordion-content {
+    display: none;
+    background-color: #AAA;
+}
+
+.current .accordion-content {
+    display: block;
+}
+
+li:first-of-type .accordion-content,
+li:last-of-type .accordion-content {
+    text-align: left;
+    padding: 5px 15px;
+}
+
+p {
+    text-align: justify;
+    padding: 5px 15px;
+}
+
+h1, h2 {
+    padding-top: 15px;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    color: #fff;
+}
+
+th, td {
+    padding: 5px;
+}
+
+tbody tr:nth-of-type(2n) {
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #898989), color-stop(0.6, #CBCBCB) );
+    background-image: -o-linear-gradient(bottom, #898989 0%, #CBCBCB 60%);
+    background-image: -moz-linear-gradient(bottom, #898989 0%, #CBCBCB 60%);
+    background-image: -webkit-linear-gradient(bottom, #898989 0%, #CBCBCB 60%);
+    background-image: -ms-linear-gradient(bottom, #898989 0%, #CBCBCB 60%);
+    background-image: linear-gradient(to bottom, #898989 0%, #CBCBCB 60%);
+}
+
+tbody tr:nth-of-type(2n + 1) {
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #898989), color-stop(0.6, #CBCBCB) );
+    background-image: -o-linear-gradient(top, #898989 0%, #CBCBCB 60%);
+    background-image: -moz-linear-gradient(top, #898989 0%, #CBCBCB 60%);
+    background-image: -webkit-linear-gradient(top, #898989 0%, #CBCBCB 60%);
+    background-image: -ms-linear-gradient(top, #898989 0%, #CBCBCB 60%);
+    background-image: linear-gradient(to top, #898989 0%, #CBCBCB 60%);
+}
+
+table {
+    margin: auto;
+}
+
+li:nth-of-type(4) div {
+    padding: 20px 0;
+}
+
+tr > th:first-child {
+    border-top-left-radius: 15px;
+}
+
+thead {
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #898989), color-stop(0.8, #ECECEC) );
+    background-image: -o-linear-gradient(top, #898989 0%, #ECECEC 80%);
+    background-image: -moz-linear-gradient(top, #898989 0%, #ECECEC 80%);
+    background-image: -webkit-linear-gradient(top, #898989 0%, #ECECEC 80%);
+    background-image: -ms-linear-gradient(top, #898989 0%, #ECECEC 80%);
+    background-image: linear-gradient(to top, #898989 0%, #ECECEC 80%);
+}

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Document object model - Query selector shim</title>
+</head>
+<body>
+    <div id="wrapper">
+        This is outer div element
+        <div>
+            This is div inside div element
+        </div>
+        <span>
+            This is span element
+        </span>
+        <ul>
+            <li>
+                <div>
+                    This div is inside li element
+                    <div>
+                        This div is inside div element
+                    </div>
+                </div>
+            </li>
+            <li>This is list element</li>
+        </ul>
+    </div>
+    <script src="scripts/sizzle.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

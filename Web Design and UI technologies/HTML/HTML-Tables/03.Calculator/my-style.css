@@ -1,0 +1,15 @@
+﻿input {
+    text-align: right;
+}
+
+    input.textbox {
+        width: 8.65em;
+    }
+
+input.double-size {
+    width: 4.3em;
+}
+
+input.single-size {
+    width: 2em;
+}

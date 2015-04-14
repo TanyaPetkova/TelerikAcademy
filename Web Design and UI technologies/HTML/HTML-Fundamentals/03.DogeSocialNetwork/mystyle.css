@@ -1,0 +1,15 @@
+﻿body {
+    background-color: rgb(173, 216, 230);
+}
+
+dt {
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+}
+
+img {
+    border: 1px solid black;
+}

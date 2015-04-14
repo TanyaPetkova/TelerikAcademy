@@ -1,0 +1,98 @@
+﻿body,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 960px;
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+form {
+    width: 410px;
+    height: 355px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 20px;
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #68D2FF), color-stop(1, #8CFFFB) );
+    background-image: -o-linear-gradient(bottom, #68D2FF 0%, #8CFFFB 100%);
+    background-image: -moz-linear-gradient(bottom, #68D2FF 0%, #8CFFFB 100%);
+    background-image: -webkit-linear-gradient(bottom, #68D2FF 0%, #8CFFFB 100%);
+    background-image: -ms-linear-gradient(bottom, #68D2FF 0%, #8CFFFB 100%);
+    background-image: linear-gradient(to bottom, #68D2FF 0%, #8CFFFB 100%);
+    text-align: right;
+}
+
+legend {
+    font-size: 1.4em;
+}
+
+fieldset {
+    text-align: right;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+    fieldset:first-of-type {
+        margin-top: 15px;
+    }
+
+input,
+button {
+    border-radius: 5px;
+}
+
+    input[type=number] {
+        width: 45px;
+        height: 25px;
+        margin: 0.5px;
+        text-align: center;
+    }
+
+    input[type=text],
+    input[type=password] {
+        width: 180px;
+        height: 25px;
+        margin: 0.5px;
+    }
+
+    input[type=text],
+    input[type=password],
+    input[type=number] {
+        background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #69D2FF), color-stop(1, #8BFEFA) );
+        background-image: -o-linear-gradient(bottom, #69D2FF 0%, #8BFEFA 100%);
+        background-image: -moz-linear-gradient(bottom, #69D2FF 0%, #8BFEFA 100%);
+        background-image: -webkit-linear-gradient(bottom, #69D2FF 0%, #8BFEFA 100%);
+        background-image: -ms-linear-gradient(bottom, #69D2FF 0%, #8BFEFA 100%);
+        background-image: linear-gradient(to bottom, #69D2FF 0%, #8BFEFA 100%);
+        border: 1px solid #008FCE;
+    }
+
+button {
+    width: 140px;
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #8BFEFA), color-stop(1, #36C3FF) );
+    background-image: -o-linear-gradient(top, #8BFEFA 0%, #36C3FF 100%);
+    background-image: -moz-linear-gradient(top, #8BFEFA 0%, #36C3FF 100%);
+    background-image: -webkit-linear-gradient(top, #8BFEFA 0%, #36C3FF 100%);
+    background-image: -ms-linear-gradient(top, #8BFEFA 0%, #36C3FF 100%);
+    background-image: linear-gradient(to top, #8BFEFA 0%, #36C3FF 100%);
+}
+
+input[type=reset] {
+    width: 120px;
+    background-color: #9BE1FF;
+    margin-right: 10px;
+}
+
+button,
+input[type=reset] {
+    height: 35px;
+    font-size: 1.2em;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}

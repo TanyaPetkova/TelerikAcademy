@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG - MEAN</title>
+</head>
+<body>
+    <svg width="300" height="400">
+
+        <!--Draw the main rectangle-->
+        <rect x="10" y="10" rx="5" ry="5" width="250" height="350" fill="#F5FFE0" stroke="#DAEDF2"></rect>
+
+        <!--Draw the letters-->
+        <text x="40" y="100" stroke="#3E3F37" stroke-width="2" fill="#3E3F37" font-size="30px" font-family="arial">M</text>
+        <text x="40" y="160" stroke="#282827" stroke-width="2" fill="#282827" font-size="30px" font-family="arial">E</text>
+        <text x="40" y="220" stroke="#E23337" stroke-width="2" fill="#E23337" font-size="30px" font-family="arial">A</text>
+        <text x="40" y="280" stroke="#8EC74E" stroke-width="2" fill="#8EC74E" font-size="30px" font-family="arial">N</text>
+
+        <!--Draw the gray circle-->
+        <circle cx="150" cy="100" r="60" fill="#3E3F37"></circle>
+
+        <!--Draw the leaf-->
+        <path fill="#5EB14A" d="M 150 70 V 130 Q 120 100 150 70"></path>
+        <path fill="#449644" d="M 150 70 V 130 Q 180 100 150 70"></path>
+
+        <!--Draw the black circle-->
+        <circle cx="150" cy="160" r="60" fill="#282827"></circle>
+
+        <!--Draw the 'express' text-->
+        <text x="95" y="160" fill="#FFF" letter-spacing="5" font-size="25px" font-family="calibri">express</text>
+
+        <!--Draw the red circle-->
+        <circle cx="150" cy="220" r="60" fill="#E23337"></circle>
+
+        <!--Draw the letter 'A'-->
+        <g>
+            <path stroke="none" fill="#B63032" d="M 150 185 L 190 200 L 185 245 L 150 245 Z"></path>
+            <path stroke="#B3B3B3" stroke-width="3" fill="none" d="M 110 200 L 150 185 L 190 200 L 185 245 L 115 245 Z"></path>
+            <path stroke="#F2F2F2" fill="#F2F2F2" d="M 150 230 H 142 L 137 240 H 131 L 150 187 V 202 L 144 225 H 150 Z"></path>
+            <path stroke="#B3B3B3" fill="#B3B3B3" d="M 150 230 H 157 L 162 240 H 168 L 150 187 V 202 L 155 225 H 150 Z"></path>
+        </g>
+
+        <!--Draw the green circle-->
+        <circle cx="150" cy="280" r="60" fill="#8EC74E"></circle>
+
+        <!--Draw the 'node' text-->
+        <image x="100" y="245" width="100" height="50" xlink:href="node.png"></image>
+    </svg>
+</body>
+</html>

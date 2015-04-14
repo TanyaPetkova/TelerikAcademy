@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DivEelementsCreator", "01.DivEelementsCreator\01.DivEelementsCreator.csproj", "{00DB3BC0-AB9A-4E2B-9BB8-CF861502D9DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MovingDivElementsCreator", "02.MovingDivElementsCreator\02.MovingDivElementsCreator.csproj", "{AC504BB2-6A23-491E-ACAD-D2AFA19DF1EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ColorChanger", "03.ColorChanger\03.ColorChanger.csproj", "{3CA56C9B-27AD-46AC-A1E3-8FC0EAD5BF62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.TagCloudGenerator", "04.TagCloud\04.TagCloudGenerator.csproj", "{C6BD981F-49AE-4AED-A906-FF6EB027B9C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.TreeViewComponentCreator", "05.TreeViewComponentCreator\05.TreeViewComponentCreator.csproj", "{7B12A232-1D92-4976-95BE-CB3BBBD34CC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00DB3BC0-AB9A-4E2B-9BB8-CF861502D9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DB3BC0-AB9A-4E2B-9BB8-CF861502D9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DB3BC0-AB9A-4E2B-9BB8-CF861502D9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DB3BC0-AB9A-4E2B-9BB8-CF861502D9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC504BB2-6A23-491E-ACAD-D2AFA19DF1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC504BB2-6A23-491E-ACAD-D2AFA19DF1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC504BB2-6A23-491E-ACAD-D2AFA19DF1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC504BB2-6A23-491E-ACAD-D2AFA19DF1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA56C9B-27AD-46AC-A1E3-8FC0EAD5BF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA56C9B-27AD-46AC-A1E3-8FC0EAD5BF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA56C9B-27AD-46AC-A1E3-8FC0EAD5BF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA56C9B-27AD-46AC-A1E3-8FC0EAD5BF62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6BD981F-49AE-4AED-A906-FF6EB027B9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6BD981F-49AE-4AED-A906-FF6EB027B9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6BD981F-49AE-4AED-A906-FF6EB027B9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6BD981F-49AE-4AED-A906-FF6EB027B9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B12A232-1D92-4976-95BE-CB3BBBD34CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B12A232-1D92-4976-95BE-CB3BBBD34CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B12A232-1D92-4976-95BE-CB3BBBD34CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B12A232-1D92-4976-95BE-CB3BBBD34CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
